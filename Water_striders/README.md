@@ -1,4 +1,4 @@
-This project focuses on identifying,predicting & successfully partitioning available subspecies of collected water strider insects using the k-means clustering method. 
-By zooming in on respective, predicted species (clusters), it does a further analysis (logistic regression) on the sample data and classifies water striders within a certain species 
-as either male or female, in the process showing mating preference variation between said species of water striders.
-All of this it accomplishes using average leg length and body size of said water-striders.
+One of the biggest problems in agriculture and farming comes in dealing with pests & parasites effectively. Knowing the identity of problem pests is critical to sourcing an effective means of managing such pests & parasites.
+This project focuses on identifying,predicting & successfully partitioning available subspecies of collected insects using the k-means clustering method. 
+By zooming in on respective, predicted species (clusters), it does a further analysis (logistic regression) on the sample data and classifies these insects within a certain species as either male or female, in the process showing mating preference variation between said species of water striders or any other similar insects in question.
+All of this it accomplishes using dimensions (average leg length and body size) of said insects.
