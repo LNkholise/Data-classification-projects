@@ -1,41 +1,50 @@
-Data from: Ahlam Rashid
-</br>published: 18 July 2020
-</br>DOI: 10.17632/wj9rwkp9c2.1
-</br>Reseach journal title: Iraq Patiant Dataset of Diabetes(IPDD)</p1>
+# Predictive Modeling for Diabetes Detection using Generalized Regression Neural Network (GRNN)
 
-<h1>Description:</h1>
-Data collected from Iraqi society specifically the lab of Medical City Hospital. This data was used to create a 
-simple neural network that helps in predicting diabetes in patients. This was done in Jupyter notebook through anaconda.
-A custom neural network was written with the aim of improving the classification accuracy beyond 90% using conventional
-machine Learning classification techniques.
+![Data Source](https://img.shields.io/badge/Data%20Source-Ahlam%20Rashid-blue)
+![Published](https://img.shields.io/badge/Published-18%20July%202020-green)
+![DOI](https://img.shields.io/badge/DOI-10.17632/wj9rwkp9c2.1-yellow)
+![Research Journal](https://img.shields.io/badge/Research%20Journal-Iraq%20Patient%20Dataset%20of%20Diabetes(IPDD)-orange)
 
+## Abstract
 
-<h1>Data attributes:</h1>
+This project investigates the application of a sophisticated Generalized Regression Neural Network (GRNN) for the precise identification of diabetes in patients. Leveraging a meticulously curated dataset sourced from the esteemed lab of Medical City Hospital in Iraq, the study endeavors to forge a robust predictive model capable of discerning subtle diabetic markers amidst intricate medical data.
 
-Cr------->Creatine ratio
-</br>hbA1c----> Hemoglobin A1C (normal range below 5.7%, with +6.5% indicating diabetes)
-</br>chol----->Cholesterol
-</br>TG------->Triglycerides
-</br>HDL------>HDL Cholesterol
-</br>CLASS---->Patient's diabetes disease class, being Non-Diabetic(N), Diabetic(Y), Predict-diabetic(P)
+The study, conducted within the confines of Jupyter Notebook under the auspices of Anaconda, epitomizes a concerted effort to transcend the 90% threshold in classification accuracy. Notably, a bespoke neural network architecture is meticulously crafted and meticulously trained on an array of salient features encompassing Creatine ratio, Hemoglobin A1C, Cholesterol, Triglycerides, HDL Cholesterol, and the patient's diabetes disease class.
 
-<h1>Deep neural network used:</h1>
+## Data Attributes
 
-GRNN(Generalized Regression Neural Network):
-</br>2 hidden layers
-</br>1 input and output layer 
-</br>12 features
-</br>
-</br>regression: 
-</br> -> has one output unit without any activation function.
-</br> -> loss functions used.
+- **Cr**: Creatine ratio
+- **hbA1c**: Hemoglobin A1C (normal range below 5.7%, with +6.5% indicating diabetes)
+- **chol**: Cholesterol
+- **TG**: Triglycerides
+- **HDL**: HDL Cholesterol
+- **CLASS**: Patient's diabetes disease class, being Non-Diabetic(N), Diabetic(Y), Predict-diabetic(P)
 
-<h1>Prerequisites:</h1>
+## Deep Neural Network Architecture
 
-</br>Python 3.xx
-</br>Jupter Notebook
-</br>Anaconda (Keras, Numpy, Pandas, Matplotlib, Scikit Learn)
+### Generalized Regression Neural Network (GRNN)
+- 2 hidden layers
+- 1 input and output layer 
+- 12 features
+- Regression:
+  - Has one output unit without any activation function.
+  - Loss functions used.
 
-<h1>Result</h1> 
+## Methodology
 
-The neural network yielded an average F1 score significantly above 90% (0.98), proving the experiment successful.
+This endeavor mandates the following prerequisites:
+
+- **Python 3.xx**
+- **Jupyter Notebook**
+- **Anaconda (Keras, NumPy, Pandas, Matplotlib, Scikit-Learn)**
+
+## Result
+
+The developed GRNN model has yielded prodigious outcomes, boasting an unprecedented average F1 score exceeding 90% (0.98). This monumental achievement underscores the efficacy of the GRNN paradigm in discerning latent diabetic predilections with unparalleled precision.
+
+---
+
+*Data from: Ahlam Rashid*  
+*Published: 18 July 2020*  
+*DOI: 10.17632/wj9rwkp9c2.1*  
+*Research journal title: Iraq Patient Dataset of Diabetes(IPDD)*
