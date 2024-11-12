@@ -28,10 +28,6 @@ Here's a brief overview of the projects included in this repository:
    - *Description*: This project focuses on classifying water striders into different species and analyzing their behavioral patterns using machine learning algorithms.
    - *Technologies*: Python, scikit-learn, pandas, matplotlib
 
-2. **Predicting Cancer Likelihood in Patients**
-   - *Description*: In this project, predictive modeling techniques are applied to medical data to determine the likelihood of cancer in patients based on various factors.
-   - *Technologies*: Python, scikit-learn, pandas, numpy, matplotlib
-
 ## Technologies Used
 
 The projects in this repository primarily utilize the following technologies:
