@@ -7,11 +7,11 @@
 
 ## Abstract
 
-In the realm of agriculture and farming, effective pest and parasite management is paramount. Identifying and understanding the behavior of problem pests is crucial for implementing targeted control measures. This project delves into the identification, prediction, and classification of subspecies of collected insects, with a specific focus on water striders, using the k-means clustering method.
+This project investigates the mating behaviors and species distinctions within water strider populations using machine learning. Initially unfamiliar with water striders, I let the data guide the analysis, hoping it would illuminate aspects of speciation and mating behavior.
 
-By leveraging the k-means clustering algorithm, the project partitions collected insect samples into distinct species clusters. Further analysis, utilizing logistic regression, is then conducted on the predicted species clusters to classify insects within each species as either male or female. This analysis provides insights into mating preference variations among different species of water striders or similar insects, whether they are pests, parasites, or otherwise.
+The analysis began with k-means clustering to identify natural groupings within collected water strider samples, revealing how size and leg length characteristics contribute to species-level differentiation. These clusters were further analyzed using logistic regression and Support Vector Machines (SVM) to classify individual insects by gender, allowing for exploration into mating dynamics across different subspecies.
 
-The project achieves these objectives by utilizing insect dimensions, such as average leg length and body size, as key features for classification and analysis.
+This classification provided insights into gender-specific mating preferences, illustrating how subtle physical traits influence reproductive success in water strider populations. Overall, this project highlighted how machine learning can reveal significant biological patterns, enhancing our understanding of how species distinctions and mating strategies develop in water striders.
 
 ## Technologies Used
 
