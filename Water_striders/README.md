@@ -47,7 +47,7 @@ To explore any of the projects in this repository, follow these steps:
 
 ## Result
 
-- 1.0 The successful classification of male and female water striders based on leg and body length using both **Logistic Regression** and **SVM** suggests a strong physical distinction clearly linked to mating behavior. For this project, it means these models can reliably separate genders based on these traits, enabling us to explore how these physical differences influence mating patterns and behaviors in water striders. Logistic Regression provides clear interpretability, while SVM offers adaptability, giving us robust tools to deepen our understanding of gender-based physical and behavioral dynamics in water strider species.
+- The successful classification of male and female water striders based on leg and body length using both **Logistic Regression** and **SVM** suggests a strong physical distinction clearly linked to mating behavior. For this project, it means these models can reliably separate genders based on these traits, enabling us to explore how these physical differences influence mating patterns and behaviors in water striders. Logistic Regression provides clear interpretability, while SVM offers adaptability, giving us robust tools to deepen our understanding of gender-based physical and behavioral dynamics in water strider species.
 
 
 
