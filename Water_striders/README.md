@@ -13,6 +13,24 @@ By leveraging the k-means clustering algorithm, the project partitions collected
 
 The project achieves these objectives by utilizing insect dimensions, such as average leg length and body size, as key features for classification and analysis.
 
+## Technologies Used
+
+The projects in this repository primarily utilize the following technologies:
+
+- Python 3.x
+- Jupyter Notebook
+- Various Python libraries for data manipulation, analysis, and machine learning (e.g., scikit-learn, pandas, numpy, matplotlib, seaborn)
+
+## How to Use
+
+To explore any of the projects in this repository, follow these steps:
+
+1. Clone the repository to your local machine using `git clone`.
+2. Navigate to the project directory.
+3. Install the necessary dependencies using `pip install -r requirements.txt`.
+4. Open the project notebooks using Jupyter Notebook or any compatible IDE.
+5. Follow the instructions provided within each project notebook to run and experiment with the code.
+
 ## Methodology
 
 ### K-Means Clustering
