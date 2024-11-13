@@ -9,9 +9,11 @@
 
 This project investigates the mating behaviors and species distinctions within water strider populations using machine learning. Initially unfamiliar with water striders, I let the data guide the analysis, hoping it would illuminate aspects of speciation and mating behavior.
 
-The analysis began with k-means clustering to identify natural groupings within collected water strider samples, revealing how size and leg length characteristics contribute to species-level differentiation. These clusters were further analyzed using logistic regression and Support Vector Machines (SVM) to classify individual insects by gender, allowing for exploration into mating dynamics across different subspecies.
+The analysis began with K-Means clustering to identify natural groupings within the collected water strider samples, revealing how size and leg length contribute to species-level differentiation. This unsupervised approach allowed an initial, unbiased view of species separation based solely on physical traits. However, to enhance precision, we transitioned from K-Means to K-Nearest Neighbors (KNN), which could use labeled data to classify known species with greater accuracy.
 
-This classification provided insights into gender-specific mating preferences, illustrating how subtle physical traits influence reproductive success in water strider populations. Overall, this project highlighted how machine learning can reveal significant biological patterns, enhancing our understanding of how species distinctions and mating strategies develop in water striders.
+These clusters were further analyzed using logistic regression and Support Vector Machines (SVM) to classify individual insects by gender, providing insights into gender-specific mating preferences. This highlighted how subtle physical traits influence reproductive success and mating dynamics across different subspecies.
+
+Overall, this project demonstrated how machine learning can uncover significant biological patterns, offering deeper insight into how species distinctions and mating strategies develop in water striders.
 
 ## Technologies Used
 
