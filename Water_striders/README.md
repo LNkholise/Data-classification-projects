@@ -48,6 +48,7 @@ To explore any of the projects in this repository, follow these steps:
 ## Result
 
 - The successful classification of male and female water striders based on leg and body length using both **Logistic Regression** and **SVM** suggests a strong physical distinction clearly linked to mating behavior. For this project, it means these models can reliably separate genders based on these traits, enabling us to explore how these physical differences influence mating patterns and behaviors in water striders. Logistic Regression provides clear interpretability, while SVM offers adaptability, giving us robust tools to deepen our understanding of gender-based physical and behavioral dynamics in water strider species.
+- Switching from KMeans to KNN was a key improvement for this project. While KMeans grouped data based on similarity, it couldn’t use species labels, making it less precise for known classifications. KNN, on the other hand, uses labeled data, allowing us to accurately classify water strider species by physical traits. This migration not only improved accuracy but also adds practical value by enabling researchers to quickly identify species in the field and build on existing research with a more adaptable model for future enhancements.
 
 
 
