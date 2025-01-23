@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
 # Water Strider Classification and Behavioral Pattern Analysis
 
 ![Data Source](https://img.shields.io/badge/Data%20Source-Royal%20Society%20Publishing-blue)
